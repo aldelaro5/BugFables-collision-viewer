@@ -25,11 +25,11 @@ If you want to entirely remove BepInEx and all of its plugins, delete the follow
 ## Usage instructions
 This plugin functions by adding features when pressing some hotkeys during gameplay:
 
-R = Show/Hide Collision Viewer (Do not disable/enable the next action direction)
-T = Show/Hide Solid Collision (Green)
-Y = Show/Hide Trigger Collision (Red, Blue for respawn)
-F = Opacity Up (hold It)
-G = Opacity Down (hold It)
+- R = Show/Hide Collision Viewer (Do not disable/enable the next action direction)
+- T = Show/Hide Solid Collision (Green)
+- Y = Show/Hide Trigger Collision (Red, Blue for respawn)
+- F = Opacity Up (hold It)
+- G = Opacity Down (hold It)
 
 It also adds a yellow line indicating the direction of the next action of the main character.
 
