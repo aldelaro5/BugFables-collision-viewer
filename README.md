@@ -37,6 +37,8 @@ It also adds a yellow line indicating the direction of the next action of the ma
 This section is intended ***only for developers***. You do not need to do this if you only want to use the plugin. Refer to the ***Installation instructions*** section for this purpose.
 
 ### Building
+>_NOTE: For technical reasons, this project is configured to be built using .NET Framework 3.5. Please do not change the target Framework and make sure your environement supports this version of the .NET Framework._
+
 This project is configured for Visual Studio 2019 (previous versions may work, but are untested). To build the project, you first need to place the required dlls into the `Libs` directory present on this repository. Refer to `Libs/README.txt` for more information on which dlls to place.
 
 Once this is done, the project should build successfully. To improve convenience, you may want to set the output path to `Bug Fables\BepInEx\plugins\Collision-Viewer` (where `Bug Fables` is the game's directory) in the project's configuration for ease of testing.
