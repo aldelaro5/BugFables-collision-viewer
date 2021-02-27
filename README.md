@@ -30,6 +30,7 @@ This plugin functions by adding features when pressing some hotkeys during gamep
 - Y = Show/Hide Trigger Collision (Red, Blue for respawn)
 - F = Opacity Up (hold It)
 - G = Opacity Down (hold It)
+- TAB = Toggle the yellow direction line
 
 It also adds a yellow line indicating the direction of the next action of the main character.
 
