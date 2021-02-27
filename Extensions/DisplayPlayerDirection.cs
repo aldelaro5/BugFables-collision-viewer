@@ -17,6 +17,7 @@ public class DisplayPlayerDirection : MonoBehaviour {
 	Material m_material;
 	GameObject m_directionAction;
 	LineRenderer m_lineRenderer;
+	KeyCode m_keyCodeEnable = KeyCode.Tab;
 
     private void Start() {
         //Initialize
@@ -68,6 +69,9 @@ public class DisplayPlayerDirection : MonoBehaviour {
 				Vector3 t_toPos = t_fromPos + new Vector3(t_player.lastdelta.x, t_player.lastdelta.y, t_player.lastdelta.z).normalized * KABBU_DASH_DISTANCE;
 				m_lineRenderer.SetPositions(new Vector3[] { t_fromPos, t_toPos });
 			}
+
+            if (Input.GetKeyDown(m_keyCodeEnable))
+				m_lineRenderer.enabled = !m_lineRenderer.enabled; 
 		}
 	}
 }
